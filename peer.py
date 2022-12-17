@@ -9,13 +9,7 @@ from threading import *
 import time
 import tqdm
 
-# Note: We declare here the server descriptor, the log file, our server descriptor to be "global variables"
-#      and that these can be accessed by the CTRL + C handler and the connection 
-#      can be closed correctly(the log file too). This can be done with POO in a cleaner way
-#      but I do not have enough time to do it, it is as future improvement for the holidays :) ,
-#      let's say that this is the version: P2PChatPy v1.0
-#
-#   For more info: github.com/davidcawork
+
 
 # Global vars
 BUFFER_SIZE = 2  # send 4096 bytes each time step
